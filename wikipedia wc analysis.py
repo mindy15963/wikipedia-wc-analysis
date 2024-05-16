@@ -14,7 +14,7 @@ match lang:
         okt=Okt()
         text=okt.nouns(text)
 
-        wordcloud=WordCloud(font_path='malgun.ttf',background_color='white')
+        wordcloud=WordCloud(font_path='C:/Windows/Fonts/malgun.ttf',background_color='white')
 
         stopwords=['의','가','이','은','들','는','좀','잘','걍','과','도','를','으로','자','에','와','한','하다']
         clean_text=[word for word in text if not word in stopwords]
